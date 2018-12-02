@@ -2,6 +2,7 @@
 //= require rails-ujs
 //= require jquery
 //= require bootstrap-sprockets
+//= require bootstrap
 //= require_tree .
 
 $(document).ready(function(){
