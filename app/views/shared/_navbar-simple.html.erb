@@ -15,10 +15,10 @@
 
     <!-- Once auth fixed then delete all the stuff below -->
     <!-- Links when logged in -->
-      <%= link_to "Home", "#", class: "navbar-wagon-item navbar-wagon-link" %>
-      <%= link_to 'About', about_path, class: "navbar-wagon-item navbar-wagon-link" %>
-      <%= link_to 'Blog', blog_path, class: "navbar-wagon-item navbar-wagon-link" %>
-      <%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-wagon-link" %>
+      <%= link_to "Home", root_path, class: "navbar-wagon-item navbar-erikablog-link" %>
+      <%= link_to 'About', about_path, class: "navbar-wagon-item navbar-erikablog-link" %>
+      <%= link_to 'Blog', blog_path, class: "navbar-wagon-item navbar-erikablog-link" %>
+      <%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-erikablog-link" %>
 
       <!-- Avatar with dropdown menu -->
       <div class="navbar-wagon-item">
@@ -51,7 +51,7 @@
   <div class="navbar-wagon-item hidden-md hidden-lg">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+      <ul class="dropdown-menu dropdown-menu-right navbar-erikablog-dropdown-menu">
         <li><%= link_to 'Home', root_path %></li>
         <li><a href="about">About</a></li>
         <li><a href="blog">Blog</a></li>
