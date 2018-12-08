@@ -1,0 +1,37 @@
+body {  
+    background-color: white;
+}
+
+// .card{
+//     background: white;
+//     padding: 20px;
+//     margin-bottom: 20px;
+//     border-radius: 4px;
+//     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+//   }
+
+// .text-center{
+// text-align: center;
+// }
+
+  .centerimage {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 767.98px) {   
+    .centerimage{
+      width: none;
+      margin: 0 auto;
+        max-width:320px;
+        float: none;
+        width: 400px;
+        }
+    .abouterika{
+        width: none;
+        margin: 0 auto;
+            max-width:320px;
+            float: none;
+            width: 400px;
+            }
+      }
