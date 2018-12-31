@@ -16,4 +16,12 @@
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>
+
+<% flash.each do |name, msg| %>
+    <ul>
+     <li><%= msg %></li>
+    </ul>
+<% end %>
+
+
 </html>
