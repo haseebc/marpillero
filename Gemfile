@@ -20,6 +20,8 @@ gem 'webpacker'
 # added by Haseeb
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'pygments.rb'
+gem 'redcarpet'
 
 
 group :development do
