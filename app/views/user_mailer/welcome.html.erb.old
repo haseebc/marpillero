@@ -1,4 +1,4 @@
-
+// Note this is the old welcome.html.erb file commented out on 8th Jan '19 ie renamed to .old
 Hello <%= @user.email %>
 
 Great to meet!
