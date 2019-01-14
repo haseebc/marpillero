@@ -5,11 +5,13 @@ Rails.application.routes.draw do
   get 'pages/contact', to: 'pages#contact'
   # get 'pages/blog', to: 'pages#blog'
   get 'pages/blog', to: 'pages#index'
+  get 'pages/projects', to: 'pages#projects'
 
   
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'blog', to: 'pages#blog'
+  get 'projects', to: 'pages#projects'
   # get 'blog', to: 'pages#index'
 
   root to: 'pages#home'
