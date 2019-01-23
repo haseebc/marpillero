@@ -1,4 +1,24 @@
-// Import your components CSS files here.
+// Import your components CSS files here. Inspiration from https://medium.com/@mciastek/s-css-best-practices-that-you-have-not-yet-known-ba2f6329b5dd
+
+// *** Utils ***
+@import 'utils/animations';
+@import 'utils/grid';
+@import 'utils/ui';
+
+// *** Base ***
+@import 'base/core';
+@import 'base/typography';
+@import 'base/settings';
+@import 'base/colors';
+
+// *** Components ***
+@import 'ui-components/header';
+@import 'ui-components/footer';
+@import 'ui-components/button';
+@import 'ui-components/sidebar';
+
+
+// Legacy
 @import "alert";
 @import "navbar";
 @import "home";
