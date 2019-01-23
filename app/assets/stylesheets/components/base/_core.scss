@@ -1,4 +1,29 @@
-.container-blog{	
+body {  
+    background-color: white;
+}
+
+// .container{
+//     // position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     height: 100%;
+//     background: white;
+//     margin: auto;
+//   }
+
+  .bg-white{
+    // position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // height: 100%;
+    background-color: white;
+    background: white;
+    // margin: auto;
+  }
+
+  .container-blog{	
     // width: 900px;	
     margin: 90px auto;	
     margin-bottom: 81px;
@@ -104,3 +129,4 @@ line-height: 1.6;
     min-width: 315px;
     }
 }
+  

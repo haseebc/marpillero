@@ -1,14 +1,30 @@
-// Import your components CSS files here.
-@import "alert";
-@import "navbar";
-@import "home";
-@import "cards";
-@import "contact";
-@import "button";
-@import "rotating-stars";
-@import "blog";
-@import "blog-components.scss";
-@import "lists";
+// Import your components CSS files here. Inspiration from https://medium.com/@mciastek/s-css-best-practices-that-you-have-not-yet-known-ba2f6329b5dd
+
+// *** Utils ***
+@import 'utils/animations';
+@import 'utils/video';
+@import 'utils/grid';
+@import 'utils/ui';
+@import 'utils/alert';
+
+// *** Base ***
+@import 'base/core';
+@import 'base/typography';
+@import 'base/settings';
+@import 'base/colors';
+@import 'base/lists';
+
+// *** Components ***
+@import 'ui-components/header';
+@import 'ui-components/footer';
+@import 'ui-components/button';
+@import 'ui-components/sidebar';
+@import 'ui-components/navbar';
+@import 'ui-components/cards';
+@import 'ui-components/form';
+
+// Legacy need to migrate these out
+
 @import "about-page";
-@import "projects-page";
-@import "custom-contact-form";
+
+
