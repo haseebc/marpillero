@@ -3,11 +3,11 @@
 
 
 <div class="container-blog__margin--medium">
-    <div class="text-left articles-title">
+    <div class="element-width__blog--likemonbiot heading-title__likemonbiot">
     <p>LATEST ARTICLES<p>
     <ul>
         <% @articles.each do |article| %>
-        <li class="text-left title-blog">
+        <li class="element-width__blog--likemonbiot blog-title__likemonbiot">
         <%=  article.title %>
         </li>
 
@@ -16,7 +16,7 @@
         <%=   article.description.truncate_words(4) %>
         <h4 class="description-blog red"> </h4>
         -->
-        <div class="readmore-blog">
+        <div class="button-spacing_likeblog">
             <%= link_to 'Read more.', article_path(article), class: "btn btn-xs btn-success" %>
         </div>
         </li> 
