@@ -1,26 +1,26 @@
 
-.text-profile-page {
+.text-normal__grey {
     color: #616668;
     font-size: 14px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-name {
+.text-normal__grey--verylarge {
     color: #616668;
     font-size: 46px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-title {
+.text-normal__greyand31px {
     color: #616668;
     font-size: 31px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-main {
+.text-normal__greyandmediumsize{
     color: #616668;
     font-size: 14px;
     font-weight: normal;
@@ -38,4 +38,8 @@
   position: absolute;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.text-center__simple {
+    text-align: center;
 }
