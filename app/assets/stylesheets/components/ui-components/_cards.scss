@@ -6,7 +6,7 @@ td {
   vertical-align: middle;
 }
 
-.card{
+.card-standard__white{
     background: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -15,7 +15,7 @@ td {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   }
 
-.text-center{
+.text-center_simple{
 text-align: center;
 }
 
@@ -26,21 +26,22 @@ text-align: center;
 
   }
 
+.text-center_middleandcentre{
+    text-align: center;
+    vertical-align: middle;
+}
 
-
-.abouterika{
+.text-standard__size--15px {
     font-weight: 300;
     font-size: 15px;
     line-height: 1.6em;
     
   }
-.abouterika img{
+.text-standard__size--15px img{
     width: 200px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+
   }
-.abouterika td{
+.text-standard__size--15px td{
     text-align: center;
     vertical-align: middle ;
     padding: 10px;
@@ -79,7 +80,7 @@ text-align: center;
         float: none;
         width: 400px;
         }
-    .abouterika{
+    .text-standard__size--15px{
         width: none;
         margin: 0 auto;
             max-width:320px;
@@ -91,8 +92,8 @@ text-align: center;
 
 
 
-      .about-card {
-        position: relative;
+      .card-overlay__standard {
+        position: relative; /* this sets the picture and */
         text-align: center;
       height: 300px;
       width: 80%;
@@ -100,15 +101,14 @@ text-align: center;
       box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
       margin: auto;
       display: block;
-      margin-bottom: 20%;
     }
     
-    .about-card img {
+    .card-overlay__standard img {
         height: 100%;
         width: 100%;
     }
     
-    .about-card:hover .overlay-text {
+    .card-overlay__standard:hover .overlay-text {
         opacity: 0.9;
     }
     
