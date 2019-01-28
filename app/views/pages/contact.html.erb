@@ -49,13 +49,13 @@
 
 
 
-<div class="custom-form">
+<div class="text-normal__grey text-center__simple padding-aroundtext__medium">
 
 <form action="https://formspree.io/haseebchaudhary@gmail.com" method="POST" >
 
 
            
-            <p class="signup"> DON'T BE SHY, GET IN TOUCH </p>
+            <p class="text-normal__greyand31px"> Don't be shy about getting intouch </p>
             First name:<br>
             <input 
                 type="text" 
@@ -96,33 +96,9 @@
             <textarea name="message">Enter text here...</textarea>
             <br>
             <input type="submit" value="Submit">
-            </form>
-       
+            </form>      
 
 </div>
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<script>
-var message = "";
-
-$("#sendMessage").on("click", function() {
-    message = $("#contactform").serialize();
-    $.ajax({
-        url: "//formspree.io/dynamicrealities@gmail.com", 
-        method: "POST",
-        data: {message: message},
-        dataType: "json"
-    });
-    alert('Thanks for the email, we\'ll be in touch promptly.');
-    return false;
-});
-
-</script>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
