@@ -1,20 +1,28 @@
-<h2>Log in</h2>
+<!-- SEO Meta-tags add here -->
+<div class="container">
+  <div class="card-standard__loginpage text-center__simple">
+    <div class="text-normal__grey--verylarge">
+                <p>Log in</p>
+    </div>
+  
+      <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="text-normal__grey">
+          <%= f.input :email,
+                      required: false,
+                      autofocus: true,
+                      input_html: { autocomplete: "email" } %>
+          <%= f.input :password,
+                      required: false,
+                      input_html: { autocomplete: "current-password" } %>
+          <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+        </div>
 
-<%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="form-inputs">
-    <%= f.input :email,
-                required: false,
-                autofocus: true,
-                input_html: { autocomplete: "email" } %>
-    <%= f.input :password,
-                required: false,
-                input_html: { autocomplete: "current-password" } %>
-    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+        <div class="text-normal__grey">
+          <%= f.button :submit, "Log me in" %>
+        </div>
+      <% end %>
+      <div class="text-normal__grey">
+        <%= render "devise/shared/links" %>
+      </div>
   </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Log in" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+</div>

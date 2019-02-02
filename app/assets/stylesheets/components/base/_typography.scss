@@ -1,6 +1,6 @@
 
 .text-normal__grey {
-    color: #616668;
+    color: #616668 !important;
     font-size: 14px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
@@ -11,6 +11,10 @@
     font-size: 46px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #616668;
 }
 
 .text-normal__greyand31px {
