@@ -2,30 +2,36 @@
 
 
 
-<div class="container-blog__margin--medium">
-    <div class="element-width__blog--likemonbiot heading-title__likemonbiot">
-    <p>LATEST ARTICLES<p>
-    <ul>
+<div class="container">
+    <div class="card-standard__white text-center__simple">
+    <div class="text-normal__grey--verylarge">
+    <p>Latest Articles<p>
+    
         <% @articles.each do |article| %>
-        <li class="element-width__blog--likemonbiot blog-title__likemonbiot">
+        <div class="text-normal__greyand31px">
         <%=  article.title %>
-        </li>
+        </div>
 
         <!--
         <h4 class="description-blog"> </h4>
         <%=   article.description.truncate_words(4) %>
         <h4 class="description-blog red"> </h4>
         -->
+        
         <div class="button-spacing_likeblog">
             <%= link_to 'Read more.', article_path(article), class: "btn btn-xs btn-success" %>
         </div>
-        </li> 
+         
         <% end %>
-    </ul>
+    
     <% if current_user && current_user.email=="erikap02@gmail.com" %>
         <div class="newarticle-blog">
         <%= link_to 'New Article', new_article_path(@article), class: "btn btn-xs btn-primary" %>
         </div>
     <% end %>
-    </div>  
+    
+
+    </div>
+
+    </div>
 </div>
