@@ -22,7 +22,8 @@ gem 'bootstrap'
 gem 'jquery-rails'
 gem 'pygments.rb'
 gem 'redcarpet'
-
+gem 'cloudinary', '~> 1.9.1'
+gem 'figaro'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
