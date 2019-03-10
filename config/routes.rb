@@ -6,12 +6,14 @@ Rails.application.routes.draw do
   # get 'pages/blog', to: 'pages#blog'
   get 'pages/blog', to: 'pages#index'
   get 'pages/projects', to: 'pages#projects'
-
+  get 'pages/ldnsouth', to: 'pages#ldnsouth'
   
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'blog', to: 'pages#blog'
   get 'projects', to: 'pages#projects'
+  get 'ldnsouth', to: 'pages#ldnsouth'
+
   # get 'blog', to: 'pages#index'
 
   root to: 'pages#home'

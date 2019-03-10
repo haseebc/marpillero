@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   # skip_before_action :authenticate_user!, only: [:home]
 
-  skip_before_action :authenticate_user!, only: %i[home blog about contact index projects]
+  skip_before_action :authenticate_user!, only: %i[home blog about contact index projects ldnsouth]
 
   def index
   end
@@ -19,6 +19,9 @@ class PagesController < ApplicationController
   end
 
   def projects
+  end
+
+  def ldnsouth
   end
 
 end
